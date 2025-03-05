@@ -13,11 +13,9 @@ import java.util.Scanner;
 public class Hangman {
         //Gabriel Cruz
 
-        public void rungame(){
+       // choose a random word from a list
 
-       /* choose a random word from a list
-
-        while (you want to play) { //outer loop
+        /* while (you want to play) { //outer loop
             start the game
             set word guessed to false
             while (the word isn't guessed) { //inner loop
@@ -36,8 +34,8 @@ public class Hangman {
 
             if too many guesses
             player lost, too bad, quit game
-        }
-        ask if player wants to play again
+        }*/
+        /*ask if player wants to play again
     }
     display game over */
         }
