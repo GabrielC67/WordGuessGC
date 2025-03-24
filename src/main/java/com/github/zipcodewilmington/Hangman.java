@@ -42,16 +42,16 @@ public class Hangman {
 
         public Wordguess() {}
         public static void main(String[] args){
-            Scanner scanner = new Scanner(System.in);
-            Wordguess game = new Wordguess();
-            game.runGame();
+            Scanner scanner = new Scanner(System.in); //Needs scanner for user input when guessing a letter.
+            Wordguess game = new Wordguess(); //Wordguess class created to create words, output _ _ _ for chosen words and
+            game.runGame(); //The game runs when main is ran
 
             // instance variables go here
 
             // set up a list (array) of strings of words players could guess
 
-            announce_game() prints a welcome
-            game_over() prints "game over"
+            announce_game() prints a welcome //game begins
+            game_over() prints "game over" //game ends when turns run out
             initialize_game_state() sets up char[] for secret word and guesses
             get_next_guess() returns a char from player input
             is_word_guessed() returns boolean
